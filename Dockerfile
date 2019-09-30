@@ -4,4 +4,6 @@ WORKDIR /app
 
 ADD . /app
 
-CMD node server.js
+COPY --from=gcr.io/berglas/berglas:latest /bin/berglas /bin/berglas
+
+CMD /bin/berglas exec -- node server.js

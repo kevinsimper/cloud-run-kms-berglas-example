@@ -1,4 +1,4 @@
 gcloud builds submit . \
   --substitutions=SHORT_SHA=$( \
-    git rev-parse --verify origin/master --short=8 \
+    git rev-parse --verify master --short=8 \
   )
