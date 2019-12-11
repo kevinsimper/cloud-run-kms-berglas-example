@@ -1,2 +1,2 @@
-export PROJECT_ID=gdg-cloud-copenhagen-demo
-export BUCKET_ID=why-serverless
+export PROJECT_ID=cloud-native-copenhagen-run
+export BUCKET_ID=cloud-native-copenhagen-run
